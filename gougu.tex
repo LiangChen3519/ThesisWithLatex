@@ -1,0 +1,81 @@
+\documentclass[a4paper]{article}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{cite}
+\bibliographystyle{plain}
+%TITLE
+\title{talking about gougu theory\\--gougu now and future}
+\author{lisi\\jiuzhang \and zhangsan\\yuantian \and wangwu\\luming}
+\date{\today}
+
+%document part
+\begin{document}
+\maketitle
+
+\tableofcontents
+
+\begin{abstract}
+    this paper is for explanation of \LaTeX{}.
+\end{abstract}
+
+\section{goudu Now}
+\subsection{Where is gougu coming from}
+
+\begin{quotation}
+    what does the fox said? \cite{bigler_daily_2019} \\
+
+    what is  your idea? \cite{jourdan_how_2020,wu_describing_2017,jourdan_effect_2019}
+\end{quotation}
+
+% \begin{align}
+%     c^2 &= a^2 + b^2 
+%     \label{eq:gougu-formula} \\ 
+%     5^2 &= 3^2 + 4^2
+%     \label{eq:gougu-example}
+% \end{align}
+
+% 勾股定理公式(\ref{eq:gougu-example})出现在第~\pageref{eq:gougu-formula}
+% 页。
+
+\section{The style for gougu}
+\subsection{gougu teaching}
+
+\begin{enumerate}
+    \item Chinese
+          \begin{enumerate}
+              \item sichuan
+              \item wu \footnote{this is a footnote}
+                    \begin{enumerate}
+                        \item shaoxing
+                        \item hanghzou
+                        \item shanghai
+                    \end{enumerate}
+              \item dongbei
+
+          \end{enumerate}
+    \item English
+    \item moi
+    \item abstract
+    \item cute
+\end{enumerate}
+
+\section{the future of gougu}
+\subsection{the developing}
+
+\begin{lstlisting}[language=Python]
+    import pandas as pd 
+    import numpyas np
+    import matplotlib.pyplot as plt
+
+    x = np.rand(100)
+    y = np.sin(x)
+
+    plt.plot(x, y,'bo', label = 'Temperature')
+    plt.show()
+\end{lstlisting}
+
+\section{Reference}
+\bibliography{Distributedlaggedmodel.bib}
+\end{document}
+
